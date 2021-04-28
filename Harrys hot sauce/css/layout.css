@@ -1,0 +1,495 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	margin:0 auto;
+	padding:0;
+	background-color:#2E2E2E;
+}
+
+#wrapper {
+	width:960px;
+	height:auto;
+	background-color:#000000;
+	margin:0 auto;
+	padding:0;
+}
+
+header {
+	width: 100%;
+	height: 200px;
+	float: left;
+	background-image: url(../images/headerBG.jpg);
+	background-repeat: repeat-x;
+	background-size: 120%
+}
+
+#logo {
+	width:306px;
+	height:127px;
+	float:left;
+	padding:36px 0 4px 26px;
+}
+
+#about {
+	width:940px;
+	height:138px;
+	float:left;
+	background-image:url(../images/aboutBG.jpg);
+	background-repeat:no-repeat;
+	padding:28px 10px 0 10px;
+}
+
+#body-wrapper {
+	width: 940px;
+	float: left;
+	background-color: #FFFFFF;
+	padding:10px;
+}
+footer {
+	width:960px;
+	height:57px;
+	float:left;
+	background-image:url(../images/footerBG.jpg);
+	background-repeat:no-repeat;
+	text-align:center;
+}
+
+#copyright {
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 200px;
+	height: 28px;
+	line-height: 30px;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-size:14px;
+}
+
+#sources {
+	display: inline-block;
+	margin: 0 auto;
+	width: 200px;
+	height: 28px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 30px;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-size:14px;
+}
+
+#company-name {
+	float: right;
+	width: 200px;
+	height: 28px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 30px;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-size:14px;
+}
+
+.item-wrapper {
+	width:180px;
+	height:auto;
+	float:left;
+	margin:10px 45px 10px 10px;
+	background-color:#000000;
+}
+
+.product-name {
+	width:180px;
+	height:auto;
+	float:left;
+	padding:5px;
+	font-size:16px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight: bold;
+	color:#FFFFFF;
+	background-color:#3c0000;
+	text-align:center;
+}
+
+.product-image {
+	width:188px;
+	height:240px;
+	float:left;
+	border:1px solid #3c0000;
+	margin:0 0 5px 0;
+}
+
+div.item-wrapper img {
+  height: 240px;
+  width: 188px;
+}
+
+.product-description {
+	width:180px;
+	height:415px;
+	padding:10px 5px 10px 5px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	color:#FFFFFF;
+	background-color:#3c0000;
+	font-size:14px;
+	font-weight: bold;
+	line-height:1.3;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+
+nav {
+	width: 628px;
+	height: auto;
+	float: left;
+	font-size: 0;
+
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin:0 0 0 136px;
+	position: relative;
+	text-align: center;
+
+}
+
+nav ul li {
+	display: inline-block;
+	text-align: center;
+	width: 158px;
+	font-size: 22px;
+}
+
+nav ul li.active a {
+	color:#ffa401;
+}
+
+nav ul li a, visited {
+	color:#FFFFFF;
+	display:block;
+	padding:9px;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	color:#ffa401;
+	text-decoration:none;
+}
+
+nav .second-level {
+	display:none;
+	position:absolute;
+	background-color:#3d0101;
+	min-width:116px;
+	margin-left:4px;
+	padding:5px;
+	border-left:1px solid #c83722;
+	border-right:1px solid #c83722;
+	border-bottom:1px solid #c83722;
+}
+
+nav ul li:hover .second-level {
+	display:block;
+}
+
+nav ul .second-level li {
+	display:block;
+	text-align:left;
+	width:136px;
+}
+
+nav ul .second-level li a,visited {
+	color:#FFFFFF;
+}
+
+nav ul .second-level li a:hover {
+	color:#ffa401;
+}
+
+.titles {
+	text-align:center;
+	margin-top:20px;
+	font-size:42px;
+	font-weight:bold;
+	color:#c83722;
+}
+
+.label-wrapper {
+	width:400px;
+	height:70px;
+	margin:0 auto;
+	color:#3c0000;
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.submit-reset {
+	width:150px;
+	height:35px;
+	margin-left:49px;
+	margin-right:33px;
+	margin-top:20px;
+	margin-bottom:20px;
+	color:#1817A2;
+	font-weight:bold;
+	background:#FFA600;
+}
+
+#register-wrapper {
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding: 10px;
+	padding-top: 30px;
+	border-radius: 10px;
+	background-color: #FFA401;
+}
+
+input[type=text] {
+	height:28px;
+	margin-bottom:10px;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px;
+	margin-top:5px;
+	color:#3c0000;
+}
+
+input[type=password] {
+	height:28px;
+	margin-bottom:10px;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px;
+	margin-top:5px;
+	color:#3c0000;
+}
+
+.inventory {
+	width:180px;
+	height:auto;
+	padding:5px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+	background:#FF5F00;
+}
+
+.quantity {
+	width:168px;
+	height:12px;
+	margin:0;
+	padding:0;
+	float:left;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+}
+
+.unavailable {
+	width:185px;
+	height:25px;
+	float:left;
+	padding:10px 5px 5px 0px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#000000;
+	text-align:center;
+	background:#FFA600;
+}
+
+.price {
+	width:180px;
+	height:auto;
+	float:left;
+	padding:5px;
+	font-size:16px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#3c0000;
+	text-align:center;
+}
+
+.test {
+	width:180px;
+	height:40px;
+	float:left;
+	padding:5px 5px 5px 0px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#000000;
+	text-align:center;
+	background-color:#FFA600;
+}
+
+.test:hover {
+	width:188px;
+	height:40px;
+	float:left;
+	padding:5px 5px 5px 0px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#3c0000;
+	text-align:center;
+	background-color:#FF5F00;
+}
+
+#cart-search {
+	width:422px;
+	height:auto;
+	float:left;
+	margin-top:66px;
+	margin-right:0;
+	margin-left:206px;
+	margin-bottom:22px;
+}
+
+#cart {
+width:167px;
+height:27px;
+float:left; margin-left:19px;
+padding:5px 0 0px 0;
+background-color:#8f5848;
+border-radius:10px;
+text-align:center;
+}
+
+div.product-cart-image img {
+    width: 45px;
+    height: 45px;
+    float: left;
+    border: 1px solid #3c0000;
+    margin: 0 0 5px 0;
+}
+
+.displayname {
+display: inline-block;
+width: 158px;
+font-size: 22px;
+color:#ffffff;
+font-size:22px;
+text-align: right;
+padding-bottom: 2px;
+}
+
+#login {
+	width:100px;
+	height:100px;
+	position:fixed;
+	top:60px;
+	right:0;
+	background-image:url(../images/signIn.jpg);
+	background-repeat:no-repeat;
+}
+
+#login:hover {
+	width:100px;
+	height:100px;
+	position:fixed;
+	top:60px;
+	right:0;
+	background-image:url(../images/signInHover.jpg);
+	background-repeat:no-repeat;
+}
+
+#logout {
+	width:100px;
+	height:100px;
+	position:fixed;
+	top:60px;
+	right:0;
+	background-image:url(../images/logout.jpg);
+	background-repeat:no-repeat;
+}
+
+#logout:hover {
+	width:100px;
+	height:100px;
+	position:fixed;
+	top:60px;
+	right:0;
+	background-image:url(../images/logoutHover.jpg);
+	background-repeat:no-repeat;
+}
+
+.removeItem {
+	width:128px;
+	height:40px;
+	padding:5px 5px 5px 0px;
+	font-family:Gotham,Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#1817A2;
+	text-align:center;
+	background:#FFA600;
+}
+
+.removeItem:hover {
+	width:128px;
+	height:40px;
+	padding:5px 5px 5px 0px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#3c0000;
+	text-align:center;
+	background:#FF5F00;
+}
+
+.updateItem {
+	width:133px;
+	height:40px;
+	padding: 5px 5px 5px 0px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#1817A2;
+	text-align:center;
+	background:#FFA600;
+}
+
+.updateItem:hover {
+	width:133px;
+	height:40px;
+	padding: 5px 5px 5px 0px;
+	font-family:Gotham, Helvetica Neue, Helvetica, "Arial", sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#3c0000;
+	text-align:center;
+	background:#FF5F00;
+}
+
+select#combo {
+	max-width:431px;
+	min-width:431px;
+	width:431px !important!;
+	height:43px;
+}

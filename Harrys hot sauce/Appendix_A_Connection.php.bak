@@ -1,0 +1,13 @@
+<?PHP
+/* The connection to MySQL Database*/
+// all the info you should need will be provided to you by the instructor or administrator
+$db_host = "Insert Host Name Here";
+// your user name
+$db_user = "Insert Username Here";
+// your password
+$db_pass = "Insert Password Here";
+// database name
+$db_dbname = "CONNECTION";
+// database port
+$db_port = "Insert Port Number Here";
+?>
